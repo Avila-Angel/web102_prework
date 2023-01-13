@@ -85,6 +85,16 @@ button {
     justify-content: space-between;
 }
 
+h2 {
+    font-size: 20px;
+}
+
+.descriptionAttribute {
+    font-weight: 500;
+    font-size: 15px;
+    color: #333333;
+}
+
 .boldText{
     font-weight: 500;
     font-size: 15px;

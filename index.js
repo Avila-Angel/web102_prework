@@ -43,10 +43,15 @@ function addGamesToPage(games) {
             <img class="game-img" src="${games[i].img}">
             <div class="gameSectionCard">
                 <h2>${games[i].name}</h2>
+                <p class="descriptionAttribute">${games[i].description}</p>
                 <div class="cardColumns">
                     <div class="pledgedAttribute">
                         <p class="customText">Raised:</p>
                         <p class="boldText">${games[i].pledged}</p>
+                    </div>
+                    <div class="backersAttribute">
+                        <p class="customText">Backers:</p>
+                        <p class="boldText">${games[i].backers}</p>
                     </div>
                     <div class="goalAttribute">
                         <p class="customText">Goal:</p>
