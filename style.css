@@ -79,3 +79,21 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.cardColumns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boldText{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #333333;
+
+}
+.customText{
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+}

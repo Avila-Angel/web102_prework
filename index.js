@@ -45,12 +45,12 @@ function addGamesToPage(games) {
                 <h2>${games[i].name}</h2>
                 <div class="cardColumns">
                     <div class="pledgedAttribute">
+                        <p class="customText">Raised:</p>
                         <p class="boldText">${games[i].pledged}</p>
-                        <p class="customText">Raised</p>
                     </div>
                     <div class="goalAttribute">
+                        <p class="customText">Goal:</p>
                         <p class="boldText">${games[i].goal}</p>
-                        <p class="customText">Goal</p>
                     </div>
                 </div>
             </div>
